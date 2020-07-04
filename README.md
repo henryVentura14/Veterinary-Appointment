@@ -19,5 +19,4 @@ npm run build
 
 ## Live demo
 
-here you can try the [app]
- [app]: https://agitated-jones-e722c0.netlify.app/
+[here you can try the app](https://agitated-jones-e722c0.netlify.app/)
