@@ -1,0 +1,93 @@
+
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(90deg, rgba(5,0,83,1) 0%, rgba(32,83,153,1) 53%, rgba(0,130,157,1) 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+h1, h2  {
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+}
+.list-appointment .media {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 3rem;
+}
+.list-appointment .media:last-of-type{
+  border-bottom: 0;
+}
+.list-appointment .media-body p {
+  margin:0;
+}
+.list-appointment.media-body button {
+  margin-top: 1rem!important;
+}
+.list-appointment .media-body span {
+  font-weight: bold;
+}
+
+label {
+  color: white;
+}
+
+input[type="date"],
+input[type="time"] {
+  height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.appointment {
+  padding: 2rem;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+}
+
+.appointment p {
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+.appointment  p span {
+  font-weight: normal;
+
+}
+.appointment:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.appointment:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.button.delete,
+.button.delete:hover {
+  background-color: #c10059;
+  color: white;
+  margin-top: 2rem;
+}
+
+.alert-error {
+  background-color: white;
+  color: red;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family:  'Staatliches', cursive;
+} 
